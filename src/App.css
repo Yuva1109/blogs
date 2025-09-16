@@ -1,0 +1,57 @@
+
+.page, .welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+
+.post {
+  background-color: white;
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
